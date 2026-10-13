@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto Estações do Anoo", "Projeto Estações do Anoo\Projeto Estações do Anoo.csproj", "{68F892B4-29CD-410B-A47D-2DDB2BEEFF57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68F892B4-29CD-410B-A47D-2DDB2BEEFF57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F892B4-29CD-410B-A47D-2DDB2BEEFF57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F892B4-29CD-410B-A47D-2DDB2BEEFF57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F892B4-29CD-410B-A47D-2DDB2BEEFF57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD15A7DB-8223-4606-AE14-C9200DE1A13E}
+	EndGlobalSection
+EndGlobal
