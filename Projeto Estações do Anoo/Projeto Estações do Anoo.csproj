@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{68F892B4-29CD-410B-A47D-2DDB2BEEFF57}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Projeto_Estações_do_Anoo</RootNamespace>
+    <AssemblyName>Projeto Estações do Anoo</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10.Designer.cs">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11.Designer.cs">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12.Designer.cs">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13.Designer.cs">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14.Designer.cs">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form15.Designer.cs">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form16.Designer.cs">
+      <DependentUpon>Form16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form17.Designer.cs">
+      <DependentUpon>Form17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form18.Designer.cs">
+      <DependentUpon>Form18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form19.Designer.cs">
+      <DependentUpon>Form19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form20.Designer.cs">
+      <DependentUpon>Form20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form21.Designer.cs">
+      <DependentUpon>Form21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form22.Designer.cs">
+      <DependentUpon>Form22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10.resx">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11.resx">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12.resx">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13.resx">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form14.resx">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form15.resx">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form16.resx">
+      <DependentUpon>Form16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form17.resx">
+      <DependentUpon>Form17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form18.resx">
+      <DependentUpon>Form18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form19.resx">
+      <DependentUpon>Form19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form20.resx">
+      <DependentUpon>Form20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form21.resx">
+      <DependentUpon>Form21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form22.resx">
+      <DependentUpon>Form22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estações do ano, PNG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GIF.com fundo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GIf.Outono.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gif.sem fundo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inverno.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inverno.gif.3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inverno.gif2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inverno.PNG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\looping.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario intro.JPEG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario,super mario. PNG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Outono.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Primavera com flores.PNG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\primavera sem flores.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SuperMario.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Verao.gif.1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Verão.PNG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario_nuvens_jpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intro_jogo_jpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario_danacando_gif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Intro_mts_Marios_JPG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Intro_mts_Marios_JPG_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario_redimensionado_1152x768.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario_redimensionado_1152x768.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\verao_sem flores_PNG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Verao_Semelemento_PNG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mariocano_gif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mariocomendo_Jpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrinhos_Png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mariopanqueca_Gif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario_Agua_Jpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lugares_Png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lugar_Boipeba_JPEG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lugar_Fernando_Jpeg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lugar_Jericoara_JPEG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pratos_PNG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\primaveramelhor-gif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mariojogo_Png-bb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mariofrio.gif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outono.gif.dinossaurinho.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estrelamerio.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estrelinhamario.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\primaverasemborboletas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kirby.lugares.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kirby.wallpaper.jpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gif kirby.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kerbywallpaper.lugares.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kerbywallpaperpratros.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kerbywallpaper.lugares %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kirby.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feirinhaprimavera.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jardimbotanico.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parque-do-carmo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bonecodeneveemario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frio.cabana.inverno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feira-de-inverno-osorio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\serracatarinense.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paranabiacaba.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luigisobremesas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario cha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marioeluigii.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outono,pratos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yoshi no piquenique de outono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dinooutonoo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outono, bonito.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outono, jalapão.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outono, paraty.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estações do ano muio melhor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inicodomariano.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ininici mariono.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kirby lugares.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kirbycomidas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kirbycuoido.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kirbycomidasremake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\primafrutas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\primagelatina.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\primamoussedemaracuja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\primaverabolo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\primasorvetedelimao.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
